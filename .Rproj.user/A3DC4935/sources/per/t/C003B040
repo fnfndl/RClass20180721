@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1532149283397.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3373146688",
+    "id" : "C003B040",
+    "lastKnownWriteTime" : 1532149296,
+    "last_content_update" : 1532149296429,
+    "path" : "C:/R/Project180721/Project180721/ifelse 예제.R",
+    "project_path" : "ifelse 예제.R",
+    "properties" : {
+        "cursorPosition" : "6,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
