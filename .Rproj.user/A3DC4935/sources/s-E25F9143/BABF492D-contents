@@ -1,0 +1,50 @@
+#정형 데이터 분석 파일의 종류
+# Database (Oracle, MySQL, MariaDB)
+# Exel (xls)
+# CSV (Comma Separated Vector)
+#외부 라이브러리(패키지)는 타 개발자가 만들어놓은 함수의 집합
+#라이브러리 중 텍스트 분석에서는 dplyr 가 최고
+getwd()
+install.packages("dplyr")
+library(dplyr)
+grade <-data.frame(read.csv("class_scores.csv"))
+head(grade)
+tail(grade)
+summary(grade)
+View(grade)
+dim(grade)
+# select : 선택한 meta data에 해당하는 instance를 출력
+select(grade)
+#filter, distance, top_n, sample_n : 선택한 row(observation) - key value에 해당하는 instance를 출력 
+# mutate, transmutate, mutate_each : data 
+# group_by : group data
+# summarise, summarise_each, count : summary
+# arrange : data sorting 
+# inner_join, left_join, right_join, full_join : combination
+head(grade)
+head(select(grade,"Math"))
+# mean, max, min
+x <- mean(select(grade,"Math"))
+# NA(Not Available) : 결측값 (값이 있기는 한데, 정확히 몇 인지는 모르는 상태)
+# Null : 값이 없는 상태 (0과는 다른 개념)함
+
+filter(math>60)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
